@@ -1187,11 +1187,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d04e4ad7d5749c44296a6281dc318ec1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 5
-  SlopeSpeedStart: 5
-  SlopeSpeedUp: 0.001
-  ScaleUp: 0.0003
-  JumpSpeed: 7
+  Left_Right_Speed: 10
+  Starting_Speed: 5
+  Ball_Speed_Increase: 0.0001
+  Ball_Size_Increase: 0.0001
+  JumpHeight: 7
 --- !u!1 &2115365639
 GameObject:
   m_ObjectHideFlags: 0
