@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: CharaMaleCivilian_01_AC
+  m_Controller: {fileID: 9100000, guid: 0cbf27d5ee5b98c4084644542b7ec6ea, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 5f2edd98da78d9244a367010b4ff9578, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 424eeb85ba5c03d4692699ba14351195, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: fb717d9ff64487343aa67af53d62a777, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 16a7cedeaf0f47147bae00cef80553a6, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 5cba43e5864b9cc4d800edf1633578f7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d5bd69350df6bff45ac631d46955a48c, type: 2}

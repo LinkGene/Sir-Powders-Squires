@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: CharaFemaleCivilian_01_AC
+  m_Controller: {fileID: 9100000, guid: 0cbf27d5ee5b98c4084644542b7ec6ea, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 5f2edd98da78d9244a367010b4ff9578, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6615c36b3dd393d46a591d96b2717975, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: fb717d9ff64487343aa67af53d62a777, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b491974ecffdb734d8d2f9ac306370d5, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 5cba43e5864b9cc4d800edf1633578f7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 777aa6fa55d9d0848a3626b9d2044524, type: 2}
