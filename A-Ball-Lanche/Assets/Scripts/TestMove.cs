@@ -14,6 +14,7 @@ public class TestMove : MonoBehaviour
     private float Jump;
     private Transform tf;
     private float newScale = 1f;
+    private bool OnFloor;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,7 +28,7 @@ public class TestMove : MonoBehaviour
     {
         lr = Input.GetAxis("Horizontal");
 
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown("space") && OnFloor)
         {
             Jump = JumpHeight;
         }
@@ -47,5 +48,14 @@ public class TestMove : MonoBehaviour
 
         
         //rb.mass += MassUp;
+    }
+    void OnCollisionEnter()
+    {
+        OnFloor = true;
+    }
+
+    void OnCollisionExit()
+    {
+        OnFloor = false;
     }
 }
