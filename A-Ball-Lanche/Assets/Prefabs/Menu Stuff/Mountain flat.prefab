@@ -305,6 +305,7 @@ GameObject:
   - component: {fileID: 6179275785129909001}
   - component: {fileID: 6179275785129909046}
   - component: {fileID: 6179275785129909047}
+  - component: {fileID: -6411539791775877267}
   m_Layer: 0
   m_Name: Mountain flat
   m_TagString: Untagged
@@ -395,6 +396,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &-6411539791775877267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6179275785129909044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c149cd2a031715b4088b4145c92e68d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnPoint: {fileID: 0}
+  NextPiece: {fileID: 0}
 --- !u!1 &9191892839825307107
 GameObject:
   m_ObjectHideFlags: 0
