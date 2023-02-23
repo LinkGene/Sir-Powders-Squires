@@ -20,10 +20,14 @@ public class ContTrack : MonoBehaviour
         
     }
 
-    void OnTriggerEnter()
+    void OnTriggerEnter(Collider collision)
     {
+        
         Debug.Log("It Works");
         Instantiate(NextPiece, SpawnPoint.transform.position, NextPiece.transform.rotation);
+
+
+        
     }
 
 }
