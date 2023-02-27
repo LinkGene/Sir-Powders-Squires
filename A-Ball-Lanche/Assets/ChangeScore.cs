@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ChangeScore : MonoBehaviour
 {
-    public GameObject ScoreManager;
+    //public GameObject ScoreManager;
     public int Score_Change = 1;
     // Start is called before the first frame update
     void Start()
@@ -20,7 +20,7 @@ public class ChangeScore : MonoBehaviour
     
     void OnTriggerEnter()
     {
-        ScoreManager.GetComponent<ScoreManager>().AddScore(Score_Change);
+        FindObjectOfType<ScoreManager>().AddScore(Score_Change);
         Debug.Log("They are Died! you killed them!");
         Destroy(gameObject);
         FindObjectOfType<AudioManager>().Play("CatNoise1");
