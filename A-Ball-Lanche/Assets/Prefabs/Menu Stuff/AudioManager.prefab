@@ -51,9 +51,51 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 0
-    pitch: 0
+  - name: CatNoise2
+    clip: {fileID: 8300000, guid: d50ada87954fbdd4a934636fd0effca5, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: CatNoise3
+    clip: {fileID: 8300000, guid: f3594a3f9b9a63946a0fcdea31b09093, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: CatNoise4
+    clip: {fileID: 8300000, guid: 5865aebdb4feb1340b6bd4ebcec9952b, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: CatNoise5
+    clip: {fileID: 8300000, guid: 7ad534fccf177e049afb0d1397bf6c6c, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: CatNoise6
+    clip: {fileID: 8300000, guid: 14260c473e92983429f64a3471799b2e, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: CatNoise7
+    clip: {fileID: 8300000, guid: a4ee1d0ad078c3c41a19446c54b984aa, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: CatNoise8
+    clip: {fileID: 8300000, guid: bc13d476019897b4dac649a01cc36a80, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: CatNoise9
+    clip: {fileID: 8300000, guid: f2c9f2b8d3952e341832b9d93776a1aa, type: 3}
+    volume: 0.5
+    pitch: 1
     loop: 0
     source: {fileID: 0}

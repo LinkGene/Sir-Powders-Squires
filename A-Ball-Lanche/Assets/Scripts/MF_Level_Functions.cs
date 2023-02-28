@@ -7,7 +7,7 @@ public class MF_Level_Functions : MonoBehaviour
 {
     //public GameObject MF;
     private GameObject NextPiece;
-    private Transform SpawnPoint = this.gameObject.transform.GetChild(5);
+    private Transform SpawnPoint;
     
 
     void Start()
@@ -26,6 +26,7 @@ public class MF_Level_Functions : MonoBehaviour
 
         if(NextPiece == null)
         {
+            SpawnPoint = gameObject.transform.GetChild(5);
             NextPiece = Instantiate(gameObject, SpawnPoint.position, gameObject.transform.rotation);
         }
     }

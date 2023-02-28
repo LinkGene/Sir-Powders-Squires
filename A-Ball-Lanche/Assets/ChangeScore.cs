@@ -23,6 +23,6 @@ public class ChangeScore : MonoBehaviour
         FindObjectOfType<ScoreManager>().AddScore(Score_Change);
         Debug.Log("They are Died! you killed them!");
         Destroy(gameObject);
-        FindObjectOfType<AudioManager>().Play("CatNoise1");
+        FindObjectOfType<AudioManager>().CatNoise();
     }
 }

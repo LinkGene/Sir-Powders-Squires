@@ -49,4 +49,10 @@ public class AudioManager : MonoBehaviour
 
         s.source.Play();
     }
+
+    public void CatNoise()
+    {
+        
+        sounds[Convert.ToInt32(UnityEngine.Random.Range(0f, 8f))].source.Play();
+    }
 }
