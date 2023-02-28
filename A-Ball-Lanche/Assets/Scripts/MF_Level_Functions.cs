@@ -29,5 +29,9 @@ public class MF_Level_Functions : MonoBehaviour
             SpawnPoint = gameObject.transform.GetChild(5);
             NextPiece = Instantiate(gameObject, SpawnPoint.position, gameObject.transform.rotation);
         }
+        else
+        {
+            NextPiece.GetComponent<MF_Level_Functions>().Spawn_Next_MF();
+        }
     }
 }

@@ -16,6 +16,8 @@ public class TestMove : MonoBehaviour
     private float newScale = 1f;
     private bool OnFloor;
     // Start is called before the first frame update
+        
+    
     void Start()
     {
         rb = GetComponent<Rigidbody>();
