@@ -24,12 +24,14 @@ public class LevelManager : MonoBehaviour
     
     public void Lev1_Juan()
     {
-        SceneManager.LoadScene("Juan Level Test", LoadSceneMode.Single); 
+        SceneManager.LoadScene("Juan Level Test", LoadSceneMode.Single);
+        FindObjectOfType<AudioManager>().Stop("MenuTheme");
     }
     
     public void Lev_Hub()
     {
         SceneManager.LoadScene("Menu", LoadSceneMode.Single);
+        FindObjectOfType<AudioManager>().Stop("ThemeJuan");
     }
 }
 

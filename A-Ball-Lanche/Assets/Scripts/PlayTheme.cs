@@ -5,16 +5,13 @@ using UnityEngine;
 public class PlayTheme : MonoBehaviour
 {
 
-    void Awake()
+    IEnumerator Start()
     {
+        yield return new WaitForSeconds(1);
         FindObjectOfType<AudioManager>().Play("ThemeJuan");
     }
 
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
