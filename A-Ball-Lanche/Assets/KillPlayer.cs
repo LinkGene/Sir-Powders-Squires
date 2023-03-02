@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class KillPlayer : MonoBehaviour
 {
+    public GameObject GameOver;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,5 +23,10 @@ public class KillPlayer : MonoBehaviour
         GameObject other = collision.gameObject;
         
         other.GetComponent<Death>().DestroyFromTree();
+        if (gameObject.tag == "Finish")
+        {
+            Debug.Log("it Crashed into the Cabin");
+            GameOver.SetActive(true);
+        }
     }
 }

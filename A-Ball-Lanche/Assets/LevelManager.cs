@@ -26,4 +26,11 @@ public class LevelManager : MonoBehaviour
     {
         SceneManager.LoadScene("Juan Level Test", LoadSceneMode.Single); 
     }
+    
+    public void Lev_Hub()
+    {
+        SceneManager.LoadScene("Menu", LoadSceneMode.Single);
+    }
 }
+
+
