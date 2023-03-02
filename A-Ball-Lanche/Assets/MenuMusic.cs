@@ -5,8 +5,9 @@ using UnityEngine;
 public class MenuMusic : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+    IEnumerator Start()
     {
+        yield return new WaitForSeconds(1);
         FindObjectOfType<AudioManager>().Play("MenuTheme");
     }
 
